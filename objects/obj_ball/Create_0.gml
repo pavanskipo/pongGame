@@ -7,5 +7,6 @@
 x = room_width/2;
 y = room_height/2;
 
-speed = 3;
+speed = 0;
+timer = room_speed * 1;
 direction = choose(random_range(-15, 15), random_range(165, 195));

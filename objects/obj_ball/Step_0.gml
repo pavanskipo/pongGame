@@ -1,6 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if (timer > 0) {
+	timer -= 1;	
+} else if (speed = 0) {
+	speed = 3;	
+}
+
 if ( y > room_height - sprite_height/2 ) or ( y < sprite_height/2 ) {
 	direction *= -1 
 }
